@@ -1,0 +1,656 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS"; }
+
+main {
+  margin: 0;
+  padding: 0; }
+  main div.fluid {
+    margin: 0; }
+    main div.fluid header {
+      margin: 0;
+      padding: 0;
+      background: #2d2d2d; }
+      main div.fluid header nav {
+        width: 100%;
+        padding: 0 80px;
+        min-height: 100px;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+        main div.fluid header nav div.logo {
+          -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+          main div.fluid header nav div.logo img {
+            width: 70px;
+            border-radius: 100%; }
+        main div.fluid header nav menu {
+          padding: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: distribute;
+          justify-content: space-around;
+          -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+          main div.fluid header nav menu li {
+            list-style: none; }
+            main div.fluid header nav menu li a {
+              text-decoration: none;
+              color: #FFFFFF; }
+            main div.fluid header nav menu li a:hover {
+              color: #636363;
+              transition: color 0.2s ease-in-out; }
+      main div.fluid header:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 0.75em;
+        background-color: #37c0fb; }
+    main div.fluid #owl-demo {
+      z-index: 999; }
+      main div.fluid #owl-demo .item {
+        position: absolute;
+        top: 30px;
+        left: 500px;
+        margin: 3px;
+        z-index: 999;
+        height: 100%; }
+        main div.fluid #owl-demo .item .item img {
+          display: block;
+          width: 100%;
+          height: 100%; }
+    main div.fluid section.banner {
+      position: relative;
+      margin: 0;
+      background-image: url(../img/banner.jpg);
+      height: 24em; }
+      main div.fluid section.banner div.header {
+        border: 1px solid #1d09fa;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: rgba(27, 27, 27, 0.75);
+        text-align: center;
+        padding: 1.5em;
+        box-sizing: border-box; }
+        main div.fluid section.banner div.header h1 {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 0 26px;
+          color: white; }
+        main div.fluid section.banner div.header a {
+          padding: 10px 30px;
+          background-color: #37c0fb;
+          text-decoration: none;
+          border-radius: 20%;
+          color: white; }
+        main div.fluid section.banner div.header a:hover {
+          padding: 10px 30px;
+          background-color: #a68dff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    main div.fluid section.wrapper-1 {
+      padding: 70px 15px 0 15px;
+      border: 1px solid #8afa48;
+      box-sizing: border-box; }
+      main div.fluid section.wrapper-1 .block {
+        padding: 0 15px 0 15px;
+        margin: 0 -15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        box-sizing: border-box;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        border: 1px solid #1d09fa; }
+        main div.fluid section.wrapper-1 .block .col {
+          padding-top: 15px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          margin: 15px;
+          border: solid #37c0fb;
+          text-align: center;
+          box-sizing: border-box;
+          min-height: 200px; }
+          main div.fluid section.wrapper-1 .block .col .fa-pencil {
+            width: 1em;
+            border-radius: 100%;
+            border: 4px solid #37c0fb;
+            font-size: 60px;
+            color: #37c0fb;
+            padding: 15px 22px; }
+          main div.fluid section.wrapper-1 .block .col .fa-code {
+            width: 2em;
+            padding: 15px;
+            color: #37c0fb;
+            font-size: 60px;
+            border-radius: 100%;
+            border: 4px solid #37c0fb;
+            box-sizing: border-box; }
+          main div.fluid section.wrapper-1 .block .col .text {
+            padding: 30px;
+            margin-top: auto;
+            box-sizing: border-box; }
+            main div.fluid section.wrapper-1 .block .col .text p {
+              margin-bottom: 44px; }
+          main div.fluid section.wrapper-1 .block .col a {
+            padding: 10px 30px;
+            background-color: #37c0fb;
+            text-decoration: none;
+            border-radius: 20%;
+            color: white; }
+          main div.fluid section.wrapper-1 .block .col a:hover {
+            background-color: #2891bd;
+            color: wheat;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; }
+    main div.fluid section.wrapper-2 {
+      padding: 100px 0 100px 0;
+      background: #f6f6f6; }
+      main div.fluid section.wrapper-2 .container {
+        margin: 0 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        box-sizing: border-box;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #1d09fa; }
+        main div.fluid section.wrapper-2 .container .section-name {
+          width: 100%;
+          background: rgba(94, 110, 255, 0.41); }
+          main div.fluid section.wrapper-2 .container .section-name h2 {
+            font-size: 2.25em; }
+          main div.fluid section.wrapper-2 .container .section-name p {
+            position: relative;
+            border-top: solid 1px #e0e0e0;
+            padding: 1em 0 0 0;
+            margin: 0;
+            top: -1em;
+            font-size: 1.5em; }
+    main div.fluid section.wrapper-3 {
+      padding: 70px 15px 95px 15px;
+      box-sizing: border-box;
+      background: aquamarine; }
+      main div.fluid section.wrapper-3 .container-1 {
+        margin: 0 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        border: 1px solid #1d09fa; }
+        main div.fluid section.wrapper-3 .container-1 .block-img {
+          margin-bottom: auto; }
+          main div.fluid section.wrapper-3 .container-1 .block-img .img {
+            padding-top: 10px; }
+          main div.fluid section.wrapper-3 .container-1 .block-img img {
+            width: 100%; }
+        main div.fluid section.wrapper-3 .container-1 .text-1 {
+          margin-bottom: auto;
+          text-align: center; }
+          main div.fluid section.wrapper-3 .container-1 .text-1 h1 {
+            margin-top: 0; }
+    main div.fluid section.wrapper-4 {
+      text-align: center;
+      padding: 3.5em 0;
+      background: #37c0fb; }
+      main div.fluid section.wrapper-4 .container {
+        margin: 0 30px;
+        border: 1px solid #1d09fa; }
+        main div.fluid section.wrapper-4 .container .baner-2 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap; }
+          main div.fluid section.wrapper-4 .container .baner-2 h1 {
+            font-size: 24px; }
+          main div.fluid section.wrapper-4 .container .baner-2 a {
+            padding: 10px 30px;
+            background-color: #06141a;
+            text-decoration: none;
+            border-radius: 20%;
+            vertical-align: middle;
+            color: white;
+            margin-left: 1em; }
+          main div.fluid section.wrapper-4 .container .baner-2 a:hover {
+            background-color: #2d2d2d;
+            color: wheat;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; }
+    main div.fluid footer {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 4em 15px 2em 15px;
+      border: 1px solid salmon;
+      background: #cfd4db; }
+      main div.fluid footer .container {
+        border: 1px solid #431dc0;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 15px 4em 15px; }
+        main div.fluid footer .container section.footer-menu {
+          border: 1px solid #fa2722; }
+          main div.fluid footer .container section.footer-menu ul {
+            padding: 0; }
+            main div.fluid footer .container section.footer-menu ul li {
+              list-style: none;
+              padding-bottom: 15px; }
+              main div.fluid footer .container section.footer-menu ul li a {
+                color: inherit;
+                text-decoration: none;
+                border-bottom: dotted 2px #474747; }
+              main div.fluid footer .container section.footer-menu ul li a:hover {
+                transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+                color: #37c0fb; }
+        main div.fluid footer .container section.footer-form {
+          border: 1px solid skyblue;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap; }
+          main div.fluid footer .container section.footer-form div {
+            text-align: center; }
+          main div.fluid footer .container section.footer-form form .flex-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          main div.fluid footer .container section.footer-form form .flex-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+          main div.fluid footer .container section.footer-form form .input-div {
+            margin-bottom: 10px; }
+            main div.fluid footer .container section.footer-form form .input-div input[type="text"], main div.fluid footer .container section.footer-form form .input-div input[type="email"], main div.fluid footer .container section.footer-form form .input-div textarea {
+              background: #fff;
+              border: solid 1px #e0e0e0;
+              border-radius: 4px;
+              color: inherit;
+              outline: 0;
+              text-decoration: none;
+              width: 75%;
+              padding: 0.4em; }
+            main div.fluid footer .container section.footer-form form .input-div textarea {
+              width: 84%; }
+            main div.fluid footer .container section.footer-form form .input-div input[type="submit"] {
+              background-color: #555555;
+              color: #fff;
+              border-radius: 5px;
+              border: 0;
+              cursor: pointer;
+              padding: 0 1.5em;
+              line-height: 2.75em;
+              min-width: 9em;
+              text-align: center;
+              text-decoration: none;
+              font-weight: 600;
+              letter-spacing: -0.025em; }
+            main div.fluid footer .container section.footer-form form .input-div input[type="submit"]:hover {
+              background: #47c1ff;
+              transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; }
+          main div.fluid footer .container section.footer-form form .area {
+            text-align: center; }
+          main div.fluid footer .container section.footer-form form .submit {
+            text-align: center; }
+      main div.fluid footer ul.copyright {
+        display: flex;
+        justify-content: center;
+        list-style: none; }
+        main div.fluid footer ul.copyright li {
+          padding-left: 15px;
+          font-size: 2.3em;
+          border: 0; }
+          main div.fluid footer ul.copyright li a {
+            color: #999; }
+          main div.fluid footer ul.copyright li a:hover {
+            color: inherit;
+            transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out; }
+      main div.fluid footer ul.social {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center; }
+        main div.fluid footer ul.social li {
+          padding-left: 15px; }
+          main div.fluid footer ul.social li a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: dotted 2px #474747; }
+
+.col-1 {
+  display: -webkit-box;
+  box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.col-2 {
+  display: flex;
+  margin: 15px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: baseline; }
+
+@media screen and (max-width: 2600px) {
+  .col-lg-1 {
+    width: calc(8.33333333334% - 30px); }
+
+  .col-lg-2 {
+    width: calc(16.6666666668% - 30px); }
+
+  .col-lg-3 {
+    width: calc(25% - 30px); }
+
+  .col-lg-4 {
+    width: calc(33.33333333334% - 30px); }
+
+  .col-lg-5 {
+    width: calc(41.666666667% - 30px); }
+
+  .col-lg-6 {
+    width: calc(50% - 30px); }
+
+  .col-lg-7 {
+    width: calc(58.333333333336% - 30px); }
+
+  .col-lg-8 {
+    width: calc(66.6666666667% - 30px); }
+
+  .col-lg-9 {
+    width: calc(75% - 30px); }
+
+  .col-lg-10 {
+    width: calc(83.3333333334% - 30px); }
+
+  .col-lg-11 {
+    width: calc(91.6666666667% - 30px); }
+
+  .col-lg-12 {
+    width: calc(100% - 30px); } }
+@media screen and (max-width: 970px) {
+  .col-md-1 {
+    width: calc(8.33333333334% - 30px); }
+
+  .col-md-2 {
+    width: calc(16.6666666668% - 30px); }
+
+  .col-md-3 {
+    width: calc(25% - 30px); }
+
+  .col-md-4 {
+    width: calc(33.33333333334% - 30px); }
+
+  .col-md-5 {
+    width: calc(41.666666667% - 30px); }
+
+  .col-md-6 {
+    width: calc(50% - 30px); }
+
+  .col-md-7 {
+    width: calc(58.333333333336% - 30px); }
+
+  .col-md-8 {
+    width: calc(66.6666666667% - 30px); }
+
+  .col-md-9 {
+    width: calc(75% - 30px); }
+
+  .col-md-10 {
+    width: calc(83.3333333334% - 30px); }
+
+  .col-md-11 {
+    width: calc(91.6666666667% - 30px); }
+
+  .col-md-12 {
+    width: calc(100% - 30px); } }
+@media screen and (max-width: 750px) {
+  .col-sm-1 {
+    width: calc(8.33333333334% - 30px); }
+
+  .col-sm-2 {
+    width: calc(16.6666666668% - 30px); }
+
+  .col-sm-3 {
+    width: calc(25% - 30px); }
+
+  .col-sm-4 {
+    width: calc(33.33333333334% - 30px); }
+
+  .col-sm-5 {
+    width: calc(41.666666667% - 30px); }
+
+  .col-sm-6 {
+    width: calc(50% - 30px); }
+
+  .col-sm-7 {
+    width: calc(58.333333333336% - 30px); }
+
+  .col-sm-8 {
+    width: calc(66.6666666667% - 30px); }
+
+  .col-sm-9 {
+    width: calc(75% - 30px); }
+
+  .col-sm-10 {
+    width: calc(83.3333333334% - 30px); }
+
+  .col-sm-11 {
+    width: calc(91.6666666667% - 30px); }
+
+  .col-sm-12 {
+    width: calc(100% - 30px); } }
+@media screen and (max-width: 570px) {
+  .col-xm-1 {
+    width: calc(8.33333333334% - 30px); }
+
+  .col-xm-2 {
+    width: calc(16.6666666668% - 30px); }
+
+  .col-xm-3 {
+    width: calc(25% - 30px); }
+
+  .col-xm-4 {
+    width: calc(33.33333333334% - 30px); }
+
+  .col-xm-5 {
+    width: calc(41.666666667% - 30px); }
+
+  .col-xm-6 {
+    width: calc(50% - 30px); }
+
+  .col-xm-7 {
+    width: calc(58.333333333336% - 30px); }
+
+  .col-xm-8 {
+    width: calc(66.6666666667% - 30px); }
+
+  .col-xm-9 {
+    width: calc(75% - 30px); }
+
+  .col-xm-10 {
+    width: calc(83.3333333334% - 30px); }
+
+  .col-xm-11 {
+    width: calc(91.6666666667% - 30px); }
+
+  .col-xm-12 {
+    width: calc(100% - 30px); } }
+.services {
+  margin: 15px;
+  padding: 60px 15px 60px 15px;
+  box-sizing: border-box;
+  border: 1px solid blue; }
+  .services .content {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap; }
+    .services .content .section {
+      display: flex;
+      margin: 15px;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items: baseline; }
+    .services .content .left {
+      border: 1px solid brown; }
+      .services .content .left .it-href {
+        padding: 0.5em 0.1em;
+        background-color: #37c0fb;
+        text-decoration: none;
+        border-radius: 5%;
+        color: white; }
+      .services .content .left p {
+        color: #999;
+        font-size: 1.25em; }
+      .services .content .left .it-href:hover {
+        background-color: #2891bd;
+        color: wheat;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; }
+      .services .content .left ul {
+        padding: 0; }
+        .services .content .left ul li {
+          list-style: none;
+          padding-bottom: 15px; }
+          .services .content .left ul li a {
+            color: #37c0fb;
+            text-decoration: none;
+            border-bottom: dotted 2px #47c1ff; }
+          .services .content .left ul li a:hover {
+            transition: color 0.2s ease-in-out;
+            color: #5d5d5d; }
+    .services .content .right {
+      border: 1px solid brown; }
+      .services .content .right h1 {
+        color: inherit;
+        font-weight: 600;
+        line-height: 1.75em;
+        margin-bottom: 1em; }
+      .services .content .right p {
+        margin-top: 8px;
+        color: #999;
+        font-size: 1.25em;
+        margin-bottom: 2.25em; }
+      .services .content .right .servic-img img {
+        width: 100%; }
+
+/* Here's where our carousel begins, with the main wrapper being
+relatively positioned, so that our absolutely positioned items are
+in the right place. */
+.carousel-wrapper {
+  position: relative;
+  /* Our absolutely positioned carousel items span the width and
+  height of its parent. We're making them transparent by default so
+  that they fade in when we cycle through them using the arrow links. */
+  /* Let's set our jump link targets display: none; so that we're not
+  making the browser jump to the top of the carousel whenever a user
+  clicks on one of our arrow links. This attribute selector will target
+  any element whose id starts with 'target-item'. */
+  /* So, up above we made all our carousel items transparent, which means
+  that on page-load, we'd have a big empty box where our carousel should be.
+  Let's set our first item's opacity to 1 so that it displays instead. Also,
+  we're setting its z-index to 2, so that it's positioned on top of the
+  other carousel items. */
+  /* But we don't want the first item to ALAWYS be opacity: 1; otherwise
+  it would peek through when cycling between items two and above. */
+  /* ...but if #target-item-1 is targeted, well we do want the first item
+  to show up, so we're selecting it with the ~ sibling selector and
+  setting its opacity to 1 again :-) */
+  /* If any other target-item-# is targeted, let's select it using the sibling
+  selector, make it fade in, and place it on top of the pile using z-index: 3.
+  Here's where you'd add more target items if your carousel has more than three
+  items. It might be worth adding like 10 items right off the bat. */ }
+  .carousel-wrapper .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    /* Did you notice the 50px left, right padding up above? It's so
+    we can position our arrow links! Each one will be 50px wide. Also,
+    I'm using empty links with a background image so that the links
+    look like arrows. Make sure you swap out that URL with an actual
+    URL so that your arrow links aren't just transparent rectangles. */
+    /* I really like how these carousel items look on a dark image
+    background, so if a .carousel-item div has the class 'light',
+    we'll make its text color white, and use a white arrow instad of
+    a dark gray one. Again, make sure this arrow image exists somewhere */
+    /* Let's use using some media queries to resize the arrows
+    on smaller devices.*/ }
+    .carousel-wrapper .carousel-item .arrow {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 50px;
+      height: 100%;
+      -webkit-tap-highlight-color: transparent;
+      background: url("../img/banner.jpg") 50% 50%/20px no-repeat;
+      /* Let's put our arrow to go back on the left. */
+      /* And our arrow to go forward on the right. Since I'm using
+      the same arrow image for both my arrows, I'm rotating this one by
+      180 degrees so that it points in the right direction */ }
+      .carousel-wrapper .carousel-item .arrow.arrow-prev {
+        left: 0; }
+      .carousel-wrapper .carousel-item .arrow.arrow-next {
+        right: 0;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg); }
+    .carousel-wrapper .carousel-item.light {
+      color: white; }
+      .carousel-wrapper .carousel-item.light .arrow {
+        background: url("../img/invention-of-the-internet.jpg") 50% 50%/20px no-repeat; }
+    @media (max-width: 480px) {
+      .carousel-wrapper .carousel-item .arrow, .carousel-wrapper .carousel-item.light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%; } }
+  .carousel-wrapper [id^="target-item"] {
+    display: none; }
+  .carousel-wrapper .item-1 {
+    z-index: 2;
+    opacity: 1; }
+  .carousel-wrapper *:target ~ .item-1 {
+    opacity: 0; }
+  .carousel-wrapper #target-item-1:target ~ .item-1 {
+    opacity: 1; }
+  .carousel-wrapper #target-item-2:target ~ .item-2, .carousel-wrapper #target-item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1; }
+
+/*# sourceMappingURL=stayle.css.map */
